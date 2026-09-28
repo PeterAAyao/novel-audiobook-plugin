@@ -17,21 +17,25 @@
     "voice"
   ],
   "skills": "./skills/",
-  "interface": {
-    "displayName": "Novel Audiobook",
-    "shortDescription": "Create multi-character audiobooks from novels",
-    "longDescription": "Analyze novels, identify narrators and characters, assign stable voice profiles, split content into chapters and dialogue segments, and prepare long-form multi-character audiobook projects.",
-    "developerName": "PeterAAyao",
-    "category": "Creativity",
-    "capabilities": [
-      "Write"
-    ],
-    "websiteURL": "https://github.com/PeterAAyao/novel-audiobook-plugin",
-    "defaultPrompt": [
-      "Turn this novel into a multi-character audiobook project",
-      "Identify the characters and assign suitable voices",
-      "Prepare this novel chapter for multi-speaker TTS"
-    ],
-    "brandColor": "#263238"
-  }
+ "interface": {
+  "displayName": "Novel Audiobook",
+  "shortDescription": "Create multi-character audiobooks from novels",
+  "longDescription": "Analyze novels, identify narrators and characters, assign stable voice profiles, split content into chapters and dialogue segments, and prepare long-form multi-character audiobook projects.",
+  "developerName": "PeterAAyao",
+  "category": "Creativity",
+  "capabilities": [
+    "Interactive",
+    "Read",
+    "Write"
+  ],
+  "websiteURL": "https://github.com/PeterAAyao/novel-audiobook-plugin",
+  "privacyPolicyURL": "https://github.com/PeterAAyao/novel-audiobook-plugin/blob/main/PRIVACY.md",
+  "termsOfServiceURL": "https://github.com/PeterAAyao/novel-audiobook-plugin/blob/main/TERMS.md",
+  "defaultPrompt": [
+    "Turn this novel into a multi-character audiobook project",
+    "Identify the characters and assign suitable voices",
+    "Prepare this novel chapter for multi-speaker TTS"
+  ],
+  "brandColor": "#263238"
+}
 }
