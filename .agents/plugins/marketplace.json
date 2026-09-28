@@ -1,0 +1,20 @@
+{
+  "name": "peter-audiobook",
+  "interface": {
+    "displayName": "PeterAAyao Audiobook Plugins"
+  },
+  "plugins": [
+    {
+      "name": "novel-audiobook",
+      "source": {
+        "source": "local",
+        "path": "./plugins/novel-audiobook"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
