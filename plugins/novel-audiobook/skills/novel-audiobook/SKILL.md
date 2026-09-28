@@ -102,3 +102,11 @@ When preparing text for TTS, use structured speaker segments such as:
     }
   ]
 }
+```
+## Local-first behavior
+
+Prefer local processing and local TTS workflows.
+
+Do not require third-party APIs, cloud TTS services, API keys, or remote storage unless the user explicitly requests them.
+
+When audio-generation scripts are available in this plugin, use those local scripts for synthesis and chapter assembly.
